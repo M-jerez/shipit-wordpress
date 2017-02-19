@@ -1,0 +1,35 @@
+{
+  "name": "shipit-wordpress",
+  "version": "0.0.1",
+  "description": "automatic wordpress deployments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://M-jerez@github.com/M-jerez/shipit-wordpress.git"
+  },
+  "keywords": [
+    "wordspress",
+    "shipit",
+    "automatic",
+    "deployment"
+  ],
+  "author": "MA-jerez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/M-jerez/shipit-wordpress/issues"
+  },
+  "homepage": "https://github.com/M-jerez/shipit-wordpress#readme",
+  "devDependencies": {
+    "@types/chai": "^3.4.35",
+    "@types/mocha": "^2.2.39",
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "typescript": "^2.1.6"
+  },
+  "dependencies": {
+    "shipit-utils": "^1.4.0"
+  }
+}
